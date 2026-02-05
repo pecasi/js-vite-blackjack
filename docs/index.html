@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blackjack-vite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script type="module" crossorigin src="/assets/index-BWFWwlHr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CsWPs8Y_.css">
+  </head>
+  <body>
+    <header class="titulo">
+          Juego de Blackjack
+    </header>
+
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="btnNuevoJuego" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedirCarta" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-carta" class="cartas">
+            </div>
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-carta" class="cartas">
+            </div>
+        </div>
+    </div>
+
+    <div id="app"></div>
+
+  </body>
+</html>
